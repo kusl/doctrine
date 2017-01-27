@@ -1,9 +1,28 @@
 {
+    "name": "kush/doctrine",
+    "version": "0.0.1",
+    "type": "application",
+    "description": "Learn Doctrine",
+    "keywords": [
+        "example",
+        "testing"
+    ],
+    "homepage": "https://kush.gitlab.io",
+    "time": "2017-01-27",
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "kus",
+            "homepage": "https://kush.gitlab.io/"
+        }
+    ],
     "require": {
         "doctrine/orm": "2.4.*",
         "symfony/yaml": "2.*"
     },
-    "autoload": {
-        "psr-0": {"": "src/"}
+  "autoload": {
+    "psr-4": {
+      "src\\": "src"
     }
+  }
 }
